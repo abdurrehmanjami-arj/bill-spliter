@@ -66,6 +66,7 @@ resetBtn.addEventListener("click", () => {
   eachPersonBillOutput.innerText = "";
   generateBillBtn.disabled = true;
   resetBtn.disabled = true;
+  tipsContainer.classList.add("disabled");
 });
 
 billAmountInput.addEventListener("input", () => {
